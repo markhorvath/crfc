@@ -1,0 +1,132 @@
+body,div, ul,ol,li,h1,h2,h3,h4,h5,h6 {
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+
+
+body {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    overflow: auto;
+}
+
+h1, h2, h3, h4, h5 {
+    padding: 5px;
+    margin: 1px;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    background: white;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+@media (max-device-width : 900px) {
+  nav ul li {
+    font-size: 10px;
+    color: yellow;
+  }
+
+  .router-link-active {
+    color: yellow;
+  }
+}
+
+
+/*#main-nav li {
+    border: 1px solid black;
+}*/
+
+#main-nav:after {
+    clear: both;
+    display: none;
+    content: "";
+}
+
+/*#main-nav li {
+    background: navy;
+    color: gold;
+}*/
+
+#main-nav li:hover {
+    background: #A0A0C0;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul li{
+    float: left;
+    width: 50%;
+    font-size: 20px;
+    list-style-type: circle;
+}
+
+#main-nav li {
+    width: 12.5%;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    font-size: 16px;
+    height: 40px;
+    padding-top: 8px;
+
+}
+
+/*#main-nav li:first-child {
+    margin-left: 1%;
+}
+
+#main-nav li:last-child {
+    margin-right: 1%;
+}*/
+
+#info h2 {
+    font-style: bold;
+}
+
+#logo img {
+    float: right;
+    padding-top: 5px;
+}
+
+#sponsors {
+    list-style-type: none;
+    padding-left: 40px;
+}
+
+#members {
+    list-style-type: none;
+}
+
+#slogan {
+    font-family: 'IM Fell Great Primer', serif;
+    font-size: 28px;
+}
+
+#name {
+    font-size: 44px;
+}
+
+#intro {
+    background: #ffe;
+}
+
+#clearfix {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+h1, h2, h3 {
+    font-family: 'Cinzel', serif;
+}
