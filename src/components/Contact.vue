@@ -2,14 +2,14 @@
 <div id="contact">
     <h4 id="contact-header">Contact The College Football Robotic Conference</h4>
     <form>
-        <label>Name: *</label>
+        <label>Name*: </label>
         <input type="text" placeholder="Name" required/>
 
-        <label>E-mail: *</label>
+        <label>E-mail*: </label>
         <input type="text" placeholder="E-mail" required/>
 
-        <label>Message: </label>
-        <textarea placeholder="Enter Your Message" ></textarea>
+        <label>Message*: </label>
+        <textarea placeholder="Enter Your Message" required></textarea>
 
         <label>What is this about? </label>
         <select v-model="msg.topic">
