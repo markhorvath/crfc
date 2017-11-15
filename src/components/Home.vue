@@ -23,7 +23,7 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="images/sunrise.jpeg" style="width: 80%; height: 400px; margin-left: 10%;">
+                        <img src="images/sunrise.jpeg" style="width: 90%; height: 400px; margin-left: 10%;">
                         <div class="carousel-caption">
                             <h3>Rise and shine</h3>
                         </div>

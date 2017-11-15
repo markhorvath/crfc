@@ -17,7 +17,7 @@
         </select>
         <div id="buttons">
             <button id="submit-btn" v-on:click.prevent="post">Submit</button>
-            <button id="reset-btn" v-on:click="reset">Reset</button>
+            <button id="reset-btn" v-on:click.prevent="reset">Reset</button>
         </div>
         <div id="marginbottom"></div>
     </form>
